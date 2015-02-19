@@ -1,0 +1,123 @@
+h1 {
+	font-size: 220%
+}
+h2 {
+	font-size: 200%
+}
+h3 {
+	font-size: 180%
+}
+h4 {
+	font-size: 160%
+}
+h5{
+	font-size: 140%
+}
+h6 {
+	font-size: 120%
+}
+
+p {
+    font-family: Gotham, “Helvetica Neue”, Helvetica, Arial, sans-serif;
+}
+
+a {
+	font-family: Gotham, “Helvetica Neue”, Helvetica, Arial, sans-serif;
+	text-decoration: none;
+}
+
+a:link{
+	color: #000000;
+}
+
+a:visited{
+	color: #111111;
+}
+
+a:hover{
+	color: #AAAAAA;
+}
+
+a:active{
+	color: #222222;
+}
+
+div, img {
+    border-radius: 25px;
+}
+
+body {
+	box-shadow: 10px 10px 5px #888888;
+}
+
+
+body {
+	font-family: Gotham, “Helvetica Neue”, Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	background-color: #AAAAAA;
+	background-image: url("images/main/backgroundsmall.jpg");
+}
+
+#header, #footer, #core{
+	background-color: #FFFFFF;
+	background-image: url("images/main/backgroundlight.jpg");
+	margin: 0.5% 1% 0.5% 1%;
+	padding: .5%;
+}
+
+hr {
+	margin: 0.5em 0em 0.5em 0em ;
+	padding: 0em;
+
+}
+
+nav {
+	width: 100%;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline;
+}
+
+nav a {
+	padding: 0em 1em 0em 1em;
+}
+
+
+
+#instalogo{
+	height: 250px;
+}
+
+#instalogo img {
+	height: 250px;
+	width: 250px;
+	border-radius: 0px;
+}
+
+#instapics {
+	height: 250px;
+	border-radius: 0px;	
+}
+
+#social img {
+	width: 32%;
+	border-radius: 0px;
+}
+
+
+
+#extra {
+	color: #DDDDDD;
+	text-align: right;
+}
+
+#extra a {
+	color: #DDDDDD;
+}
+
+
+
+
+
