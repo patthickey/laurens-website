@@ -19,13 +19,18 @@
 
 	<link rel="stylesheet" href="reset.css" />
 	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="shadowbox/shadowbox.css">
+	<script type="text/javascript" src="shadowbox/shadowbox.js"></script>
+	<script type="text/javascript">
+	Shadowbox.init();
+	</script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script> 
   $(function(){
     $("#headerfile").load("header.html"); 
     $("#footerfile").load("footer.html"); 
   });
-  </script>
+  </script> 
 
 
   </head>
@@ -35,43 +40,15 @@
   <div id="headerfile"></div>
 
   	<div id="core">
-
-
-        <br>
-        <h3>Portraits</h3>
-        <ul>
-          <li><a href="http://patthickey.com/book">patt hickey's photography book</a></li>
-          <li><a href="https://www.youtube.com/user/327dramaqueen">super space chick's banner</a></li>
-        </ul>
-
-        <br>
-        <h3>Illustration for Product</h3>
-        <ul>
-          <li><a href="https://itunes.apple.com/us/album/scared-to-death/id720442693">king nine album art</a></li>
-        </ul>
-
-        <br>
-        <h3>DCBend</h3>
-        <ul>
-          <li><a href="http://comicsalliance.com/dcbend-doyle-quinones-henderson-gibson-art/">comic alliance</a></li>
-          <li><a href="http://robot6.comicbookresources.com/2015/02/dcs-superheroes-gender-bent-as-famous-actresses/#more-204820">comicbook resources</a></li>
-          <li><a href="http://www.buzzfeed.com/hannahjewell/sigourney-weaver-as-batman-please#.bsNyyn2Zy">buzzfeed</a></li>
-          <li><a href="http://www.themarysue.com/comics-artists-genderblend-dc-comics/">the marysue</a>
-        </ul>
-
-        <br>
-        <h3>Art Shows</h3>
-        <ul>
-          <li>FIT Senior Show 2013</li>
-        </ul>
-
-        <br>
-        <h3>Convention's I've had a table at</h3>
-        <ul>
-          <li>SPX 2014</li>
-        </ul>
-
-  	</div>
+      <center>
+      <div class="row" id="artpieces">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+      	<a href="FULL" rel="shadowbox" title="TITLE"><img src="BLACK" onmouseover="this.src='COLOR'" onmouseout="this.src='BLACK'"/></a>
+      </div>	 		
+      </div>
+      </center>
+   	</div>
+  </div>
 
   <div id="footerfile"></div>
 

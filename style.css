@@ -42,12 +42,10 @@ a:active{
 	color: #222222;
 }
 
-div, img {
-    border-radius: 25px;
-}
 
-body {
-	box-shadow: 10px 10px 5px #888888;
+
+#header, #core, #footer, #featured img, #about img, #artpieces img {
+    border-radius: 25px;	
 }
 
 
@@ -61,8 +59,12 @@ body {
 #header, #footer, #core{
 	background-color: #FFFFFF;
 	background-image: url("images/main/backgroundlight.jpg");
-	margin: 0.5% 1% 0.5% 1%;
+	margin: 1%;
 	padding: .5%;
+}
+
+#core ul li {
+	list-style: none;
 }
 
 hr {
@@ -86,24 +88,17 @@ nav a {
 
 
 
-#instalogo{
+#instalogo, #instapics{
 	height: 250px;
 }
 
 #instalogo img {
 	height: 250px;
 	width: 250px;
-	border-radius: 0px;
-}
-
-#instapics {
-	height: 250px;
-	border-radius: 0px;	
 }
 
 #social img {
 	width: 32%;
-	border-radius: 0px;
 }
 
 
@@ -118,6 +113,17 @@ nav a {
 }
 
 
+@media screen and (max-width: 992px) {
+	#artpieces img {
+		width : 49%;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	#artpieces img {
+		width: 33%;
+	}
+}
 
 
 
