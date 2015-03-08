@@ -89,12 +89,14 @@ nav a {
 
 
 #instalogo, #instapics{
-	height: 250px;
+	height: 270px;
+	padding: 1em;
 }
 
-#instalogo img {
-	height: 250px;
-	width: 250px;
+#instalogo img, #instapics img{
+	align-content: center;
+	height: 260px;
+	width: 260px;
 }
 
 #social img {
@@ -112,6 +114,9 @@ nav a {
 	color: #DDDDDD;
 }
 
+#porticons img {
+	width: 100%;
+}
 
 @media screen and (max-width: 992px) {
 	#artpieces img {
