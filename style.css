@@ -54,11 +54,15 @@ body {
 	font-weight: bold;
 	background-color: #AAAAAA;
 	background-image: url("images/main/backgroundsmall.jpg");
+	padding-top: 1%;
+    background-attachment: fixed;
+    background-position: center; 
 }
 
 #header, #footer, #core{
 	background-color: #FFFFFF;
 	background-image: url("images/main/backgroundlight.jpg");
+	background-position: center center; 
 	margin: 1%;
 	padding: .5%;
 }
