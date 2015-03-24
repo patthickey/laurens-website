@@ -62,7 +62,8 @@ body {
 #header, #footer, #core{
 	background-color: #FFFFFF;
 	background-image: url("images/main/backgroundlight.jpg");
-	background-position: center center; 
+	background-position: center center;
+	background-attachment: fixed; 
 	margin: 1%;
 	padding: .5%;
 }

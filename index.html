@@ -22,7 +22,7 @@
 
 	<link rel="stylesheet" href="reset.css" />
 	<link rel="stylesheet" href="style.css" />
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
 	<script> 
 	$(function(){
 	  $("#headerfile").load("header.html"); 
@@ -30,18 +30,66 @@
 	});
 	</script> 
 
+  <script>
+    $('.carousel').carousel({
+        interval: 3000
+    })
+  </script>
+
 
 
   </head>
 
-  <body class="col-md-10 col-md-offset-1">
+  <body class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
 
 	<div id="headerfile"></div>
 
   	<div id="core">
 
  	<div id="featured">		
-			<img src="images/main/marci_and_bubs.jpg" alt="featured image" width="100%">
+			<!-- <img src="images/main/marci_and_bubs.jpg" alt="featured image" width="100%"> -->
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="4"></li>  
+          <li data-target="#carousel-example-generic" data-slide-to="5"></li>                          
+        </ol>
+       
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <a href="http://comicsalliance.com/dcbend-doyle-quinones-henderson-gibson-art/"><img src="images/main/carousel/1.jpg" alt="..."></a>
+          </div>
+          <div class="item">
+            <a href="http://laurenmoran.bigcartel.com/product/hedwig-and-the-angry-inch-poster-preorder"><img src="images/main/carousel/2.jpg" alt="..."></a>
+          </div>
+          <div class="item">
+            <a href="pop_culture.html"><img src="images/main/carousel/3.jpg" alt="..."></a>
+          </div>
+          <div class="item">
+            <a href="comics.html"><img src="images/main/carousel/6.jpg" alt="..."></a>
+          </div>            
+          <div class="item">
+            <img src="images/main/carousel/4.jpg" alt="...">
+          </div> 
+          <div class="item">
+            <img src="images/main/carousel/5.jpg" alt="...">
+          </div> 
+                          
+        </div>
+       
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div> <!-- Carousel -->
 	</div>
 
   <hr>
@@ -68,6 +116,20 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script> 
+    $(function(){
+      $("#headerfile").load("header.html"); 
+      $("#footerfile").load("footer.html"); 
+    });
+    </script> 
+
+    <script>
+      $('.carousel').carousel({
+          interval: 3000
+      })
+    </script>
+
   </body>
 
 
